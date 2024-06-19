@@ -8,7 +8,7 @@ public class AnimalControl : MonoBehaviour
     [SerializeField] GameManager gameManager;
     [SerializeField] GameObject gamemanager;
     [SerializeField] float speed = 1.2f;
-    public float health = 100;
+    public float health = 0;
     public float maxHealth = 100;
     public int damagewhenHIT = 25;
     public Food food;
@@ -23,7 +23,7 @@ public class AnimalControl : MonoBehaviour
     {
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
-        if (health <= 0)
+        if (health >= maxHealth)
         {
             gameManager.score += 1;
             Destroy(gameObject);
@@ -32,7 +32,7 @@ public class AnimalControl : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        health -= damagewhenHIT;
+        health += damagewhenHIT;
     }
 
     

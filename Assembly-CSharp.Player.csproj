@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C6B30D0D-FE10-B717-FDB4-1BA147CFEA05}</ProjectGuid>
+    <ProjectGuid>{713584C6-3610-43A7-CBF5-F5F4E423B357}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -859,23 +859,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{F842F6BB-1F04-BC28-AB59-DED5B660A238}</Project>
+      <Project>{62A2EF2C-FCD5-D23F-4E0A-849F27A967F4}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{2468E2FE-4E3C-4056-18B6-EEF8B3C95E6C}</Project>
+      <Project>{DABE14AD-76CE-7BEA-53AD-16F620A39C4E}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{5F350BE7-B20C-5E6A-F42B-EEAF96D0881D}</Project>
+      <Project>{8CCBD86C-CFD5-4545-CDD9-9046A889B21C}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{98F0F87A-8EF3-BD32-563D-78154EDC6151}</Project>
+      <Project>{5BFF0DED-4B26-627A-DA5D-6237B4C16F60}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{384ABE49-1C9E-D538-D25F-345D7D5E6E42}</Project>
+      <Project>{49CDC3AD-4834-97CF-D4CD-F648592269FC}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
   </ItemGroup>
